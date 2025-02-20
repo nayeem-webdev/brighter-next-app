@@ -1,3 +1,5 @@
+import { FaPhoneAlt } from "react-icons/fa";
+
 export default function Page() {
   return (
     <>
@@ -10,7 +12,7 @@ export default function Page() {
         </ul>
       </div>
       <div>
-        <div>call</div>
+        <FaPhoneAlt />
         <button>Sign in</button>
         <button>Continue</button>
       </div>
